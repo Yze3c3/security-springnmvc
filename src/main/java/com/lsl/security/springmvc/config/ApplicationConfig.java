@@ -5,6 +5,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.stereotype.Controller;
 
+
+
+
 @Configuration //相当于applicationContext.xml
 @ComponentScan(basePackages = "com.lsl.security.springmvc"
         ,excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION,value = Controller.class)})
